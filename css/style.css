@@ -79,6 +79,11 @@ nav ul li span{
   background-image: linear-gradient(White, LightGray, white);
   box-shadow: 0 15px 10px rgba(0,0,0,.25);
 }
+.jumbotron2{
+  background-color: White; 
+  background-image: linear-gradient(white, rgb(227, 227, 227),white);
+  box-shadow: 0 15px 10px rgba(0,0,0,.25);
+}
 
 /*Estilo para los titulos*/
 h1{	
@@ -427,6 +432,21 @@ p {
       font-size: 1rem;
   }
 }
+.contenedor-frases {
+  margin-top: 50px;
+  background-color: #ffb701c2; /* Color de fondo */
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0.467), rgb(255, 255, 255)); /* Gradiente de blanco transparente hacia la derecha */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  padding: 10px; /* Ajusta según sea necesario */
+  flex-wrap: wrap;
+
+}
+
+
 
 
 
