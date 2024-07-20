@@ -432,19 +432,6 @@ p {
       font-size: 1rem;
   }
 }
-.contenedor-frases {
-  margin-top: 50px;
-  background-color: #ffb701c2; /* Color de fondo */
-  background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0.467), rgb(255, 255, 255)); /* Gradiente de blanco transparente hacia la derecha */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  display: flex;
-  padding: 10px; /* Ajusta según sea necesario */
-  flex-wrap: wrap;
-
-}
 
 
 
