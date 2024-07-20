@@ -1,0 +1,443 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+
+/*Estilo para el Menu de Navegacion*/
+.navbar-light .navbar-brand{
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  padding: 10px;
+  color: White;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+  color: BurlyWood;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top: 15px !important; 
+    height: 60px; 
+}
+.navbar {
+    min-height: 30px !important; /* Elige la altura que necesites */
+    z-index: 10; /* Asegúrate de que la barra de navegación esté en la parte superior */
+    width: 100%; /* Para que ocupe todo el ancho de la página */
+}
+
+.nav-link{
+  padding: 5px;
+  font-weight: 500;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.dropdown-menu{
+  border:none;
+}
+
+.dropdown-item{
+  color:white;
+}
+
+nav ul li span{ 
+  margin-right:10px;
+}
+
+.dropdown-item:hover{
+  background:none;
+  color: BurlyWood;
+ 
+}
+
+
+
+/*Estilo para los fondos del container*/
+.jumbotron{
+  background-color: White; 
+  background-image: linear-gradient(White, LightGray, white);
+  box-shadow: 0 15px 10px rgba(0,0,0,.25);
+}
+
+/*Estilo para los titulos*/
+h1{	
+  font-weight: 100;
+  font-style: inherit;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+h2{
+  color: #443979;
+  font-style: italic;
+  font-size: 25px;
+  font-family: Times New Roman;
+}
+
+
+/*Estilo para las letras*/
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Estilo para los logos*/
+.img{
+  padding: 10px; 
+  margin: 20px;
+  height: auto;
+}
+
+.img:hover{
+  animation-duration:2s;
+  animation-name: rubberBand;
+  animation-iteration-count: infinite;
+}
+
+/*Efecto para el boton de navegacion responsive*/
+.navbar-light .navbar-toggler{
+  border-color:DarkGrey; 
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-light.navbar-toggler {
+  border-color: rgb(255,255,255);
+} 
+
+
+/*Estilo para el msj*/
+/*.contact{
+  background-image: linear-gradient(White, LightGray, white);
+  border-radius: 5px;
+  box-shadow: 0 15px 10px rgba(0,0,0,.25);
+}*/
+
+/*Estilo para el logo de Facebook*/
+.face{
+  margin: 0 auto;
+}
+
+/*Estilo para el boton de descarga*/
+.descarga{
+  color: White;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 19px;
+}
+
+.descarga:hover{
+  color: White;
+  text-decoration: none;
+}
+
+/*Estilo para el titulo de prevencion y unsl en contactos*/
+.titunsl{
+  font-size:24px;
+}
+
+.titprev{
+  font-size:19px;
+}
+
+
+/*Estilo para los folletos*/
+.afiche{
+  width: 100%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.30);
+
+}
+
+.afiche:hover{
+   box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.50);
+   transition: 800ms;
+}
+
+
+/*Estilo para los documentos*/
+.downloadDoc p{
+  font-size:17px;
+  font-family:'Poppins',sans-serif;
+}
+
+.downloadDoc{
+  position: relative;
+  padding: 40px;
+  background: #f2f2f2;
+  border-radius: 4px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.60);
+  margin: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+} 
+
+.icon{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-size: 20px;
+  /*font-weight: 400;*/
+  transition: 1s;
+}
+
+.doc1 .downloadDoc .icon {
+  box-shadow: 0 0 0 0 DodgerBlue;
+  background: DodgerBlue;
+}
+
+.doc1 .downloadDoc:hover .icon {
+  box-shadow: 0 0 0 400px DodgerBlue;
+  background: #000;
+}
+
+.doc2 .downloadDoc .icon {
+  box-shadow: 0 0 0 0 #6A5ACD;
+  background: #6A5ACD;
+}
+
+.doc2 .downloadDoc:hover .icon {
+  box-shadow: 0 0 0 400px #6A5ACD;
+  background: #000;
+}
+
+.doc3 .downloadDoc .icon {
+  box-shadow: 0 0 0 0 DarkCyan;
+  background: DarkCyan;
+}
+
+.doc3 .downloadDoc:hover .icon {
+  box-shadow: 0 0 0 400px DarkCyan;
+  background: #000;
+}
+
+.doc4 .downloadDoc .icon {
+  box-shadow: 0 0 0 0 MediumSeaGreen;
+  background: MediumSeaGreen;
+}
+
+.doc4 .downloadDoc:hover .icon {
+  box-shadow: 0 0 0 400px MediumSeaGreen;
+  background: #000;
+}
+
+.doc5 .downloadDoc .icon {
+  box-shadow: 0 0 0 0 ForestGreen;
+  background: ForestGreen;
+}
+
+.doc5 .downloadDoc:hover .icon {
+  box-shadow: 0 0 0 400px ForestGreen;
+  background: #000;
+}
+
+.doc6 .downloadDoc .icon {
+  box-shadow: 0 0 0 0 DarkMagenta;
+  background: DarkMagenta;
+}
+
+.doc6 .downloadDoc:hover .icon {
+  box-shadow: 0 0 0 400px DarkMagenta;
+  background: #000;
+}
+
+.content{
+  position:relative;
+  z-index: 1;
+  transition: 1s;
+}
+
+.downloadDoc:hover .content{
+  color: #fff;
+}
+
+.downloadDoc:before{
+  content: '';
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255,255,255,.1); 
+  z-index: 2;
+  pointer-events:none;
+}
+
+/*Estilo para Actividades*/
+.activity p{
+  font-size: 16px;
+}
+
+.activity h3{
+  font-size: 28px;
+  font-style: italic;
+  font-family: Times New Roman;
+}
+
+.activity h4{
+  color: #443979;
+  font-size: 25px;
+  font-style: italic;
+  font-family: Times New Roman;
+}
+
+
+.contenedor-imagen {
+  background-image: url('../img/universidad.png');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  margin-top: 45px;
+
+}
+
+
+.contenedor-imagen2 {
+  padding: 0;
+  margin: 0;
+  background-image: url('../img/rectorado.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative; /* Asegurar que el ::before se posicione correctamente */
+
+}
+
+#contenido-mitos {
+  max-width: 87%;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.mitos {
+  text-align: center;
+  background-image: url('../img/1.jpeg');
+ 
+}
+
+.mitos-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+
+.myth-reality-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  list-style-type: none;
+  padding: 0;
+}
+
+.myth-reality-list li {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px ;
+  width: 47%;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-top: 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 780px) {
+  .myth-reality-list li {
+      width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  #contenido-mitos {
+      padding: 10px;
+  }
+
+  .myth-reality-list li {
+      padding: 15px;
+  }
+
+  header h1 {
+      font-size: 1.5rem;
+  }
+
+  h2 {
+      font-size: 1.25rem;
+  }
+
+  p {
+      font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
