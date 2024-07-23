@@ -366,6 +366,7 @@ header h1 {
 .mitos {
   text-align: center;
   background-image: url('../img/1.jpeg');
+  border-radius: 8px;
  
 }
 
@@ -395,6 +396,10 @@ header h1 {
   box-sizing: border-box;
 }
 
+.altura p{
+  min-height: 5s0px;
+}
+
 h2 {
   color: #2c3e50;
   margin-top: 0;
@@ -402,6 +407,7 @@ h2 {
 
 p {
   margin: 10px 0;
+
 }
 
 /* Media queries for responsiveness */
