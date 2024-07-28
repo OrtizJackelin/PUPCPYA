@@ -13,57 +13,15 @@
 	</head>
 
 	<body>   
-		<!-- Menu de Navegaci�n -->
+			<!-- Menu de Navegaci�n -->
+		<header id="nav-placeholder"></header >		
 
-		<header>
-			<nav class="navbar navbar-expand-md navbar-dark navbar-light fixed-top bg-dark pr-5">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
-				<span class="navbar-toggler-icon"></span>
-				</button>	
-					
-				<div class="collapse navbar-collapse" id="collapse_target">
-					<a href="index.html#">
-						<img src="img/logosPrograma/logo3.png">
-					</a>
-					<ul class="navbar-nav ml-auto">			
-						<li class="nav-item">
-							<a class="nav-link" href="index.html#"><span class="icon-home"></span>Inicio</a>	
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
-							<span class="icon-users"></span>Institucional<span class="caret"></span>
-							</a>
-							<div class="dropdown-menu bg-dark" aria-labelledby="dropdown_target">
-								<a class="dropdown-item" href="institucional.html#objetivos"><span class="icon-user-tie"></span>Objetivos</a>
-								<a class="dropdown-item" href="institucional.html#comisionDirectiva"><span class="icon-user-tie"></span>Comisión directiva</a>
-								<a class="dropdown-item" href="institucional.html#estudiantes"><span class="icon-user"></span>Estudiantes</a>
-								<a class="dropdown-item" href="institucional.html#participantes"><span class="icon-office"></span>Participantes</a>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
-							<span class="icon-info"></span>Prevenci&oacuten<span class="caret"></span>
-							</a>
-							<div class="dropdown-menu bg-dark" aria-labelledby="dropdown_target">
-								<a class="dropdown-item" href="index.html#folletos"><span class="icon-file-picture"></span>Folletos</a>
-								<a class="dropdown-item" href="index.html#documentos"><span class="icon-book"></span>Documentos</a>
-								<a class="dropdown-item" href="index.html#actividades"><span class="icon-paste"></span>Actividades</a>
-							</div>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#contacto"><span class="icon-earth"></span>Contacto</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</header>		
-
-		<!-- Portada -->
+			<!-- Portada -->
 		<section>
 			<div class=" imagen-fluid contenedor-imagen"></div>
 		</section>
 
-		<!--Mitos-->
+			<!--Mitos-->
 		<section>
 			<div class="container" id = "contenido-mitos">
 				<header>
@@ -71,7 +29,7 @@
 				</header>
 				<div class="mitos">
 					<img src="img/detectar-adiccion.jpg" alt="Preventive program" class="mitos-image">
-					<ul class="myth-reality-list altura">
+					<ul class="myth-reality-list ">
 						<li>
 							<h2>Mito falso</h2>
 							<p>Sólo una vez no me pasará nada</p>
@@ -101,9 +59,8 @@
 					</ul>
 				</div>
 			</div>
-		</section>
-			
-		<!-- Seccion de Folletos -->
+		</section>			
+			<!-- Seccion de Folletos -->
 		<section id= "folletos">
 			<main class="container" id = "contenido-mitos">
 				<div class="container text-center">			
@@ -222,13 +179,11 @@
 				</div>
 			</main>
 		</section>
-
-		<!-- Seccion de Actividades -->
+			<!-- Seccion de Actividades -->
 		<section id="actividades">
 			<main class="container jumbotron" id = "contenido-mitos">
 				<div  class="container activity ">
-					<h1>Actividades</h1>
-					
+					<h1>Actividades</h1>					
 						<!--<h3 style="text-align: center;"> <strong>Cuidate!</strong></h3><br>-->
 					<div class="container" style=" text-align: center; ">
 						<img src="img/folletos/foto1.jpeg" class="img-fluid" >		
@@ -247,9 +202,8 @@
 
 				</div>				
 			</main>
-		</section>
-		
-		<!-- Seccion de Contacto -->
+		</section>		
+			<!-- Seccion de Contacto -->
     	<section id="contacto" >
 			<div class="container jumbotron" id = "contenido-mitos">
 				<h1>Contacto</h1>
@@ -290,13 +244,14 @@
 					<span class="icon-html-five"></span>
 				</div><br>	  
 			</div>
-    	</section>
-		
-		<!-- Scripts -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script> 
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-			
-	</body>
-  
+    	</section>		
+			<!-- Scripts -->	
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> <!-- Versión completa de jQuery -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		   
+			<!-- Scripts personalizados -->
+		<script src="js/nav.js"></script>
+		<script src="js/button.js"></script>
+	</body>  
 </html>
