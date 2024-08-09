@@ -42,7 +42,7 @@ html{
 }
 .navbar {
     min-height: 30px !important; /* Elige la altura que necesites */
-    z-index: 10; /* Asegúrate de que la barra de navegación esté en la parte superior */
+    z-index: 10; /* Asegúrate de que la barra de navegación esté en la parte superior 
     width: 100%; /* Para que ocupe todo el ancho de la página */
 }
 
@@ -327,6 +327,7 @@ p{
   background-repeat: no-repeat;
   height: 50vh;
   width: 100%;
+  margin-top: 30px;
   /*display: flex;
 
   text-align: center;
@@ -347,6 +348,7 @@ p{
   background-repeat: no-repeat;
   height: 50vh;
   width: 100%;
+  margin-top: 30px;
  /* text-align: center;
   justify-content: center;
   align-items: center;
