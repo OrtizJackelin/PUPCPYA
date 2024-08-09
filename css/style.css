@@ -319,14 +319,21 @@ p{
 
 
 .contenedor-imagen {
+  padding: 0;
+  margin: 0;
   background-image: url('../img/universidad.png');
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 50vh;
   width: 100%;
+  /*display: flex;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   display: flex;
-  margin-top: 45px;
+  position: relative; /* Asegurar que el ::before se posicione correctamente */
 
 }
 
@@ -340,7 +347,7 @@ p{
   background-repeat: no-repeat;
   height: 50vh;
   width: 100%;
-  text-align: center;
+ /* text-align: center;
   justify-content: center;
   align-items: center;
   display: flex;
