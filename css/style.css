@@ -325,14 +325,12 @@ p{
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 45vh;
+  min-height: 300px; /* Altura mínima */
+  max-height: 600px; /* Altura máxima */
   width: 100%;
-  margin-top: 30px;
-  /*display: flex;
-
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+  margin-top: 35px;
+  object-fit: cover;
   display: flex;
   position: relative; /* Asegurar que el ::before se posicione correctamente */
 
@@ -346,12 +344,12 @@ p{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 45vh;
+  min-height: 300px; /* Altura mínima */
+  max-height: 600px; /* Altura máxima */
   width: 100%;
-  margin-top: 30px;
- /* text-align: center;
-  justify-content: center;
-  align-items: center;
+  margin-top: 35px;
+  object-fit: cover;
   display: flex;
   position: relative; /* Asegurar que el ::before se posicione correctamente */
 
@@ -380,12 +378,12 @@ header h1 {
 }
 
 .mitos-image {
-  max-width: 100%;
-  height: auto;
+  width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
+  height: 60vh; /* La altura se ajustará automáticamente para mantener la proporción */
+  object-fit: cover; /* Asegura que la imagen cubra todo el contenedor sin deformarse */
   border-radius: 8px;
   margin-bottom: 20px;
 }
-
 
 .myth-reality-list {
   display: flex;
@@ -420,6 +418,12 @@ p {
 }
 
 /* Media queries for responsiveness */
+@media (max-width: 576px) {
+  .mitos-image {
+    height: 40vh; /* La altura se ajustará automáticamente para mantener la proporción */
+  }
+}
+
 @media (max-width: 760px) {
   .myth-reality-list li {
       width: 100%;
