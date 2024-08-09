@@ -323,7 +323,7 @@ p{
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 40vh;
+  height: 50vh;
   width: 100%;
   display: flex;
   margin-top: 45px;
@@ -411,7 +411,7 @@ p {
 }
 
 /* Media queries for responsiveness */
-@media (max-width: 780px) {
+@media (max-width: 760px) {
   .myth-reality-list li {
       width: 100%;
   }
