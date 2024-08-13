@@ -16,3 +16,4 @@ window.addEventListener('load', function() {
         logo.src = 'img/logosPrograma/logo_grande.png';
     }
 });
+

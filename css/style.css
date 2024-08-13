@@ -320,9 +320,9 @@ p{
 .contenedor-imagen {
   padding: 0;
   margin: 0;
-  background-image: url('../img/istockphoto-nm.jpg');
+  background-image: url('../img/universidad.png');
   background-size: cover;
-  background-position: top; /* Asegura que la parte superior de la imagen esté siempre visible */
+  background-position: center; /* Asegura que la parte superior de la imagen esté siempre visible */
   background-repeat: no-repeat;
   height: 55vh;
   min-height: 300px; /* Altura mínima */
@@ -338,7 +338,7 @@ p{
 .contenedor-imagen2 {
   padding: 0;
   margin: 0;
-  background-image: url('../img/DSC00533.jpg');
+  background-image: url('../img/unsl20.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -353,13 +353,6 @@ p{
 
 }
 
-.img-nav{
-  padding: 0;
-  margin: 0;
-  background-image: url('../img/logosPrograma/logo34.png');
-  background-size: cover;
-  margin-right: 20px;
-}
 
 #contenido-mitos {
   max-width: 87%;
@@ -453,13 +446,7 @@ p {
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     margin-top: 75px;
   }
-  .img-nav{
-    padding: 0;
-    margin: 0;
-    background-image: url('../img/logosPrograma/loguito.png');
-    background-size: cover;
-    margin-right: 20px;
-  }
+
 }
 
 @media (max-width: 480px) {
