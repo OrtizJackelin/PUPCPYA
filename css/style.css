@@ -342,9 +342,9 @@ p{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 45vh;
+  height: 55vh;
   min-height: 300px; /* Altura mínima */
-  max-height: 400px; /* Altura máxima */
+  max-height: 600px; /* Altura máxima */
   width: 100%;
   margin-top: 55px;
   object-fit: cover;
