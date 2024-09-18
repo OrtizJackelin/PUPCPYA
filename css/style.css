@@ -114,6 +114,7 @@ p{
   padding: 10px; 
   margin: 20px;
   height: auto;
+ 
 }
 
 .img:hover{
@@ -135,13 +136,6 @@ p{
   border-color: rgb(255,255,255);
 } 
 
-
-/*Estilo para el msj*/
-/*.contact{
-  background-image: linear-gradient(White, LightGray, white);
-  border-radius: 5px;
-  box-shadow: 0 15px 10px rgba(0,0,0,.25);
-}*/
 
 /*Estilo para el logo de Facebook*/
 .face{
